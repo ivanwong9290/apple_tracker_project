@@ -1,0 +1,1 @@
+g++ pcl_process.cpp -o output `pkg-config --cflags --libs opencv4` `pkg-config --cflags --libs pcl_ros`
