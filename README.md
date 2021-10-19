@@ -18,5 +18,6 @@ Source Image (Left image shown):
 ![L0007](https://user-images.githubusercontent.com/71652695/137849378-029496d9-006f-499d-8288-d9ab3b0a60bd.jpeg) </br>
 Disparity Map
 ![L0007_disp](https://user-images.githubusercontent.com/71652695/137849342-891759cb-59f1-4167-9492-800adde15195.png)</br>
-Point Cloud
+Point Cloud\
+
 ![L0007_pc](https://user-images.githubusercontent.com/71652695/137849768-f7c33bb3-2aa2-4ecd-9419-51d95079052e.png)
