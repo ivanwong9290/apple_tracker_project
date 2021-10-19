@@ -13,7 +13,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/calib3d.hpp>
-// ====== PCL Viewer ======
+// ====== PCL Headers ======
 #include <pcl_ros/point_cloud.h>
 #include <pcl_ros/io/pcd_io.h>
 #include <pcl_ros/filters/statistical_outlier_removal.h>
@@ -175,6 +175,7 @@ int main(int argc, char **argv)
     // Resize picture to ratio of original 
     float resizeRatio = 0.5;
     
+    // Starts looping at i = 2 to skip over current and parent directory for Unix system
     for (int i = 2; i < leftImgs.size(); i++){
         generatePCL(leftImgs.at(i), rightImgs.at(i), minDisp, dispRange, winSize, resizeRatio);
     }
