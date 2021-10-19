@@ -1,1 +1,2 @@
-# apple_tracker_project
+# Apple Tracking Project/ Apple Harvesting Project
+## Carnegie Mellon University & UC Davis
